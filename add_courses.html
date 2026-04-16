@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Pages/stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <title>Personal course organizer</title>
+</head>
+
+<body>
+    
+    <section class="add_courses">
+       <main class="container">    
+            <nav>
+                <a class="logo" href ="#"> EDU ISLAND </a>
+                <ul>
+                    <li> <a href ="index.html"> Home </a></li>
+                    <li> <a href ="my_courses.html"> My courses </a></li>
+                    <li> <a href ="add_courses.html"> Add courses </a></li>
+                    <li> <a href ="contact_us.html"> Contact us </a></li>
+                </ul>
+            </nav>
+        </main>
+
+    <section class="formAdd">
+         <form>
+            <h1>ADD COURSES</h1>
+
+            <div>
+                <label for="courseName">Course name</label>
+                <br>
+                <input class="userinput" id="courseName" type="text" required>
+            </div>
+
+            <div>
+                <label for="Instructor">Instructor</label>
+                <br>
+                <input class="userinput" id="Instructor" type="text" required>
+            </div>
+
+            <div>
+                <label for="credit hours">credit hours</label>
+                <br>
+                <input class="userinput" id="credit hours" type="number" required min="1" max="6">
+            </div>
+
+            <div>
+                <label for="Notes">Notes</label>
+                <br>
+                <input class="userinput" id="Notes" type="text">
+            </div>
+            <input class="submit" type="submit" value="Add">
+        </form>
+
+    </section>
+       
+    </section>
+        
+    <footer>    
+    <p>&copy 2026 EDU ISLAND. All right reserved.</p>
+    </footer>
+
+</body>
+
+</html>
